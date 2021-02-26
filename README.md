@@ -73,7 +73,7 @@ You can find pre-trained SP module [here](https://drive.google.com/open?id=14-HT
 The module is trained using leave-one-subject-out strategy, this model is trained with 'Alireza' left out.
 
 ## Publication:
-Y. Huang, <u>M. Cai</u>, Z. Li and Y. Sato, &quot;Predicting Gaze in Egocentric Video by Learning Task-dependent Attention Transition,&quot; <i>European Conference on Computer Vision (**ECCV**)</i>, to appear, 2018. (<font color="blue">oral presentation, acceptance rate: 2%</font>)  
+Y. Huang, <u>M. Cai</u>, Z. Li and Y. Sato, &quot;Predicting Gaze in Egocentric Video by Learning Task-dependent Attention Transition,&quot; <i>European Conference on Computer Vision (**ECCV**)</i>, 2018. (<font color="blue">oral presentation, acceptance rate: 2%</font>)  
 [[Arxiv preprint]](https://arxiv.org/pdf/1803.09125)
 
 [[CVF Open Access]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Huang_Predicting_Gaze_in_ECCV_2018_paper.pdf)
@@ -81,10 +81,11 @@ Y. Huang, <u>M. Cai</u>, Z. Li and Y. Sato, &quot;Predicting Gaze in Egocentric 
 ## Citation
 Please cite the following paper if you feel this repository useful.
 ```
-@article{huang2018predicting,
-  title={Predicting Gaze in Egocentric Video by Learning Task-dependent Attention Transition},
+@inproceedings{huang2018predicting,
+  title={Predicting gaze in egocentric video by learning task-dependent attention transition},
   author={Huang, Yifei and Cai, Minjie and Li, Zhenqiang and Sato, Yoichi},
-  journal={arXiv preprint arXiv:1803.09125},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={754--769},
   year={2018}
 }
 ```
